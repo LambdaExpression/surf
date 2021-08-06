@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/LambdaExpression/surf/errors"
+	"github.com/LambdaExpression/surf/jar"
 	"github.com/PuerkitoBio/goquery"
-	"github.com/headzoo/surf/errors"
-	"github.com/headzoo/surf/jar"
 )
 
 // Attribute represents a Browser capability.

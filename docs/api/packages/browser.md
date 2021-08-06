@@ -1,6 +1,6 @@
 # browser
 --
-    import "github.com/headzoo/surf/browser"
+    import "github.com/LambdaExpression/surf/browser"
 
 Package browser contains the primary browser implementation.
 

@@ -7,8 +7,8 @@ import (
 
 	"io"
 
+	"github.com/LambdaExpression/surf/errors"
 	"github.com/PuerkitoBio/goquery"
-	"github.com/headzoo/surf/errors"
 )
 
 // Submittable represents an element that may be submitted, such as a form.
@@ -152,8 +152,8 @@ func (f *Form) Set(name, value string) error {
 }
 
 // Get will return the value of a form field and `ok` - whether the field exists or not
-func (f *Form) Get(name) string {
-	return f.fields[name]
+func (f *Form) Get(name string) string {
+	return f.fields.Get(name)
 }
 
 // Check sets the checkbox value to its active state.

@@ -1,6 +1,6 @@
 # util
 --
-    import "github.com/headzoo/surf/util"
+    import "github.com/LambdaExpression/surf/util"
 
 Package util contains some utility methods used by other packages.
 

@@ -3,7 +3,7 @@ package jar
 import (
 	"testing"
 
-	"github.com/headzoo/ut"
+	"github.com/LambdaExpression/ut"
 )
 
 func TestMemoryHistory(t *testing.T) {
