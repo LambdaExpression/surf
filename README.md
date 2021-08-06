@@ -34,7 +34,7 @@ Import the library into your project.
 package main
 
 import (
-	"gopkg.in/headzoo/surf.v1"
+	"github.com/LambdaExpression/surf"
 	"fmt"
 )
 
