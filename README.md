@@ -21,10 +21,12 @@ CSS selectors, scraping assets like images, stylesheets, and other features.
 
 ### Installation
 Download the library using go.
-`go get gopkg.in/headzoo/surf.v1`
+`go get github.com/LambdaExpression/surf@master`
+
+repair [UnBounded History growth can consume lots of memory #68](https://github.com/headzoo/surf/issues/68)
 
 Import the library into your project.
-`import "gopkg.in/headzoo/surf.v1"`
+`import "github.com/LambdaExpression/surf"`
 
 
 ### Quick Start
